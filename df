@@ -1,0 +1,29 @@
+[33mcommit 4f1fa43fa0eca271b3ffe798a6bbf9731f68a1be[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Mohit Pinninti <pinnintimohit@gmail.com>
+Date:   Sun Nov 6 11:48:47 2022 -0500
+
+    left and right buttons on UI change modifiable parameter
+
+[33mcommit c3a43de24e94593b30c2265c6c377ec0e13993e6[m
+Author: Mohit Pinninti <pinnintimohit@gmail.com>
+Date:   Sun Oct 30 12:02:54 2022 -0400
+
+    UI arrows for planet parameter change is
+
+[33mcommit 5a3a320d4a655f8762454be4d06f91eaf29fd87f[m[33m ([m[1;31morigin/Hotspot[m[33m)[m
+Author: Angela Dai <zhjh.angela@gmail.com>
+Date:   Mon Oct 24 15:00:23 2022 -0400
+
+    add basic planet files
+
+[33mcommit 1847b4b6383dd17223db4f48b25c5c676baa63b6[m
+Author: angles-d <52553063+angles-d@users.noreply.github.com>
+Date:   Mon Oct 24 15:00:05 2022 -0400
+
+    Update and rename .gitignore.txt to .gitignore
+
+[33mcommit d3775339ec4306e48fdab7e9dd6dfe16f009c020[m
+Author: Lominoe <v.x.nguyen231@gmail.com>
+Date:   Sun Oct 9 13:13:19 2022 -0400
+
+    Adding unity gitignore
