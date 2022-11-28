@@ -7,7 +7,7 @@ public class Temperature : MonoBehaviour
 {
     //Albedo = Bond albedo
     //lumonisty = in watts of the star
-    double sbConst = 5.670374419e-8;
+    static double sbConst = 5.670374419e-8;
 
     //Calculate temp based on atmosphere
     public static float CalcAtmoTemp()
