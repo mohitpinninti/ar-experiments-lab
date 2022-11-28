@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlanetController : MonoBehaviour
 {
-    public GameObject sun;
+    public GameObject star;
     public float rotationSpeed = 50f;
     public float orbitSpeed = 20f;
     public float orbitRadius = 20f;
@@ -14,6 +14,8 @@ public class PlanetController : MonoBehaviour
     public float atmo_nitro = 0;
     public float atmo_oxyg = 0;
     public float atmo_hydro= 0;
+
+    public float albedo = 0.29f;
 
     public bool hasLife = false;
 
@@ -35,12 +37,13 @@ public class PlanetController : MonoBehaviour
         {
             hasLife = CheckLife();
         }
-        transform.RotateAround(sun.transform.position, Vector3.up, orbitSpeed * Time.deltaTime);
+        transform.RotateAround(star.transform.position, Vector3.up, orbitSpeed * Time.deltaTime);
         transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);
     }
 
     public bool CheckLife()
     {
+        temp = Temperature.CalcAtmoTemp();
         //check temp
         if (-15 >= temp && temp >= 122)
         {
