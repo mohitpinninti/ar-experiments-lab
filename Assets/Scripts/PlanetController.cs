@@ -22,7 +22,7 @@ public class PlanetController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        transform.position = new Vector3(orbitRadius, 0, 0);
+        transform.position = star.transform.position + new Vector3(orbitRadius, 0, 0);
         temp = Random.Range(-100000000, 10000000);
         atmo_nitro = Random.Range(0, 1.0f);
         atmo_hydro = Random.Range(0, 1.0f);
